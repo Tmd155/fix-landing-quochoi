@@ -1,0 +1,117 @@
+// Font SF-Pro
+@font-face{
+    font-family:"SF-Pro SemiBold";
+    font-weight:500;
+    font-style:normal;
+    src:url("../fonts/SF-Pro/SF-Pro-Display-Semibold.otf") format("otf"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Semibold.otf") format("opentype"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Semibold.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"SF-Pro";
+    font-weight:300;
+    font-style:normal;
+    src:url("../fonts/SF-Pro/SF-Pro-Display-Regular.otf") format("otf"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Regular.otf") format("opentype"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Regular.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"SF-Pro Bold";
+    font-weight:600;
+    font-style:normal;
+    src:url("../fonts/SF-Pro/SF-Pro-Display-Bold.otf") format("otf"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Bold.otf") format("opentype"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Bold.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"SF-Pro Light";
+    font-weight:100;
+    font-style:normal;
+    src:url("../fonts/SF-Pro/SF-Pro-Display-Light.otf") format("otf"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Light.otf") format("opentype"),
+    url("../fonts/SF-Pro/SF-Pro-Display-Light.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"SF-Pro LightItalic";
+    font-weight:100;
+    font-style:normal;
+    src:url("../fonts/SF-Pro/SF-Pro-Display-LightItalic.otf") format("otf"),
+    url("../fonts/SF-Pro/SF-Pro-Display-LightItalic.otf") format("opentype"),
+    url("../fonts/SF-Pro/SF-Pro-Display-LightItalic.otf") format("opentype");
+    font-display:swap
+}
+.f-n {
+    font-family:"SF-Pro";
+}
+.f-b {
+    font-family:"SF-Pro Bold";
+}
+.f-sb {
+    font-family:"SF-Pro SemiBold";
+}
+.f-l {
+    font-family:"SF-Pro Light";
+}
+
+// Font Montserrat
+@font-face{
+    font-family:"Montserrat SemiBold";
+    font-weight:600;
+    font-style:normal;
+    src:url("../fonts/Montserrat/Montserrat-SemiBold.otf") format("otf"),
+    url("../fonts/Montserrat/Montserrat-SemiBold.otf") format("opentype"),
+    url("../fonts/Montserrat/Montserrat-SemiBold.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"Montserrat-Pro";
+    font-weight:300;
+    font-style:normal;
+    src:url("../fonts/Montserrat/Montserrat-Regular.otf") format("otf"),
+    url("../fonts/Montserrat/Montserrat-Regular.otf") format("opentype"),
+    url("../fonts/Montserrat/Montserrat-Regular.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"Montserrat Bold";
+    font-weight:700;
+    font-style:normal;
+    src:url("../fonts/Montserrat/Montserrat-Bold.otf") format("otf"),
+    url("../fonts/Montserrat/Montserrat-Bold.otf") format("opentype"),
+    url("../fonts/Montserrat/Montserrat-Bold.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"Montserrat Light";
+    font-weight:100;
+    font-style:normal;
+    src:url("../fonts/Montserrat/Montserrat-Light.otf") format("otf"),
+    url("../fonts/Montserrat/Montserrat-Light.otf") format("opentype"),
+    url("../fonts/Montserrat/Montserrat-Light.otf") format("opentype");
+    font-display:swap
+}
+@font-face{
+    font-family:"Montserrat LightItalic";
+    font-weight:100;
+    font-style:normal;
+    src:url("../fonts/Montserrat/Montserrat-LightItalic.otf") format("otf"),
+    url("../fonts/Montserrat/Montserrat-LightItalic.otf") format("opentype"),
+    url("../fonts/Montserrat/Montserrat-LightItalic.otf") format("opentype");
+    font-display:swap
+}
+.m-n {
+    font-family:"Montserrat-Pro";
+}
+.m-b {
+    font-family:"Montserrat Bold";
+}
+.m-sb {
+    font-family:"Montserrat SemiBold";
+}
+.m-l {
+    font-family:"Montserrat Light";
+}
