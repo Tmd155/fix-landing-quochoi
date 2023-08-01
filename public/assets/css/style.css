@@ -5070,8 +5070,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .banner-general__content-image img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .banner-general__content-image video {
   width: 100%;
