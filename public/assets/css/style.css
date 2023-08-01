@@ -4960,7 +4960,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 .footer-content {
   background: rgb(216, 1, 1);
-  padding: 20px;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .footer-content .logo-foot {
   width: 172px;
@@ -5059,7 +5065,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   overflow: hidden;
 }
 .banner-general__content .bg-gradient {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.431372549);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5122,10 +5128,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .contact-fix {
   width: 66px;
   height: 74px;
-  position: relative;
+  position: fixed;
   z-index: 999999;
-  bottom: -40px;
-  left: 1377px;
+  bottom: 0;
+  right: 0;
 }
 .contact-fix .contact-messenger {
   width: 100%;
@@ -5150,7 +5156,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   overflow: hidden;
 }
 .banner-home__content .bg-gradient {
-  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180.75deg, rgba(54, 0, 0, 0.075) 0.65%, rgba(88, 0, 0, 0.25) 74.43%, rgba(255, 153, 0, 0.1775) 105.58%);
   width: 100%;
   height: 100%;
   position: absolute;
