@@ -4863,6 +4863,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   width: 1045px;
   height: 101px;
 }
+.header-content {
+  height: 100%;
+}
 .header-content__menu {
   background: #fff;
   -webkit-box-shadow: 2px 0 9px 0 rgba(0, 0, 0, 0.3);
@@ -4871,6 +4874,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .header-content__menu .menu-main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 10px;
 }
 .header-content__menu .menu-main__li {
   display: inline-block;
