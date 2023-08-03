@@ -5525,7 +5525,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Montserrat SemiBold";
+  font-family: "Montserrat";
 }
 .timeline-meeting__content .item-timeline__list {
   position: relative;
