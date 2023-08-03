@@ -5534,7 +5534,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 .timeline-meeting__content .item-timeline__list:after {
   content: "";
-  height: 96%;
+  height: 95%;
   width: 3px;
   background: rgb(216, 1, 1);
   position: absolute;
@@ -5577,11 +5577,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 .timeline-meeting__content .item-timeline__list .timeline-event__info .show-info {
   position: relative;
-  min-height: 500px;
-}
-.timeline-meeting__content .item-timeline__list .timeline-event__info-avatar {
-  position: absolute;
-  top: -330px;
 }
 .timeline-meeting__content .item-timeline__list .timeline-event__info-avatar .avatar {
   width: 100%;
@@ -5658,6 +5653,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   margin-bottom: unset;
 }
 
+.banner-meeting {
+  margin-top: 60px;
+}
 .banner-meeting .container {
   width: 945px;
 }
