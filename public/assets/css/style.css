@@ -5217,6 +5217,8 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   line-height: 61px;
   color: #fff;
   text-transform: uppercase;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
 }
 
 .info-general {
@@ -5665,10 +5667,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
           justify-content: center;
 }
 .banner-meeting__title .title {
+  font-family: "Montserrat";
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 800;
   position: relative;
-  line-height: 42px;
+  line-height: 43px;
 }
 .banner-meeting__content {
   margin-top: 50px;
@@ -5696,10 +5700,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
           justify-content: center;
 }
 .end-meeting__title .title {
+  font-family: "Montserrat";
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 800;
   position: relative;
-  line-height: 42px;
+  line-height: 43px;
 }
 .end-meeting__content {
   margin-top: 50px;
@@ -5857,9 +5863,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   bottom: -20px;
   background: #000;
 }
-.intro-question__content {
-  margin-top: 50px;
-}
 .intro-question__content-left, .intro-question__content-right {
   width: calc(50% - 10px);
 }
@@ -5926,7 +5929,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   text-transform: uppercase;
   text-align: center;
   line-height: 24px;
-  text-decoration: underline;
   padding-bottom: 20px;
 }
 .video-question .slide-video-question .owl-nav .owl-prev, .video-question .slide-video-question .owl-nav .owl-next {
@@ -5983,7 +5985,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   bottom: -25px;
 }
 .forum-content {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .forum-content__detail {
   margin-bottom: 60px;
@@ -6051,7 +6053,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 .law {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .law .container {
   width: 1043px;

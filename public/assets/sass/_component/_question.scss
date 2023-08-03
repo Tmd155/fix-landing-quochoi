@@ -28,7 +28,7 @@
 		}
 	}
 	&__content {
-		margin-top: 50px;
+		// margin-top: 50px;
 		&-left,&-right {
 			width: calc(50% - 10px);
 			.image {
@@ -96,7 +96,7 @@
 					text-transform: uppercase;
 					text-align: center;
 					line-height: 24px;
-					text-decoration: underline;
+					// text-decoration: underline;
     				padding-bottom: 20px;
 				}
 			}
@@ -153,7 +153,7 @@
 		}
 	}
 	&-content {
-		margin-top: 80px;
+		margin-top: 40px;
 		&__detail {
 			margin-bottom: 60px;
 			font-size: 25px;

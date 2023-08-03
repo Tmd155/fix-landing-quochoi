@@ -32,8 +32,8 @@ $('body').on('click','*[data-info]', function(e){
 //ẩn hiện luât, dự thảo, nghị định
 $('body').on('click','*[data-tab]', function(e){
     var id_tab = $(this).attr('data-tab');
-    var content = $(this).find('.text-value').html();
-    $('.content-center .title-content-center').html(content)
+    // var content = $(this).find('.text-value').html();
+    // $('.content-center .title-content-center').html(content)
     $('#'+id_tab).slideToggle();
 });
 $('.slide-video-question').owlCarousel({
