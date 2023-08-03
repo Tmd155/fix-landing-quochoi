@@ -6536,7 +6536,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     display: block;
   }
   .law .container, .personnel .container, .intro-question .container, .forum .container, .impression-said .container, .end-meeting .container, .banner-meeting .container, .timeline-meeting .container, .info-general .container, .page-home .container, .search .container, .video-home .container, .impressive-numbers .container, .footer .container {
-    width: 430px;
+    width: 100%;
   }
   .banner-home__content-text .container {
     width: 430px;
