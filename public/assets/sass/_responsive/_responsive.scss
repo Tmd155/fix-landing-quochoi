@@ -267,6 +267,7 @@
 			.item-video {
 				&__clip video {
 				    height: 310px;
+					margin-left: 160px;
 				}
 			}
 			.owl-nav {
@@ -274,10 +275,10 @@
 					bottom: -65px;
 				}
 				.owl-next {
-					right: 42%;
+					right: 5%;
 				}
 				.owl-prev {
-					left: 42%;
+					left: 5%;
 				}
 			}
 		}
@@ -311,6 +312,12 @@
 					justify-content: center;
 					.link-social {
 						width: 200px;
+						&__ul {
+							&-li {
+								width: 30px;
+								height: 30px;
+							}
+						}
 					}
 				}
 			}
@@ -377,7 +384,8 @@
 				display: none;
 			}
 			.header-mobile {
-				display: block;
+				display: flex;
+				align-items: center;
 			}
 		}
 	}
@@ -418,7 +426,7 @@
 		}
 	}
 	.page-home__list .item-page {
-		width: calc((100% - 10px)/2);
+		width: calc(100% - 10px);
 		&:nth-child(3n+2){
 			margin-left: unset;
 			margin-right: unset;
@@ -485,6 +493,7 @@
 	.timeline-meeting {
 		&__title {
 			.title {
+				text-align: center;
 				font-size: 22px;
 				line-height: 30px;
 			}
@@ -554,7 +563,9 @@
 			width: calc(100% - 20px);
 		}
 		&__title {
+			margin-top: 50px;
 			.title {
+				text-align: center;
 				font-size: 22px;
 				line-height: 32px;
 			}
@@ -686,12 +697,13 @@
 				&__title {
 					.title-box {
 						.title {
-							font-size: 22px;
-							line-height: 32px;
+							font-size: 16px;
+							line-height: 26px;
 						}
 					}
 					.icon-drop {
-
+						width: 40px;
+						height: 40px;
 					}
 				}
 			}
@@ -796,7 +808,7 @@
 					display: none;
 				}
 				p {
-					font-size: 16px;
+					font-size: 12px;
 					line-height: 22px;
 				}
 			}
@@ -807,6 +819,12 @@
 					justify-content: center;
 					.link-social {
 						width: 200px;
+						&__ul {
+							&-li {
+								width: 30px;
+								height: 30px;
+							}
+						}
 					}
 				}
 			}
@@ -814,7 +832,7 @@
 	}
 	.banner-general {
 		&__content {
-			height: calc(85vh - 200px);
+			height: calc(50vh - 200px);
 			&-image {
 				.banner {
 					height: 100%;
@@ -822,6 +840,7 @@
 			}
 			&-info {
 				.title-page {
+					top: 60%;
 					.title {
 						font-size: 2.5rem;
 						line-height: 3.5rem;
